@@ -1,0 +1,177 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+body, html{
+width: 0;
+height: 0;
+
+background-color: #03346E;
+
+}
+
+
+
+/* head */
+
+.game{
+   
+background-color: #021526;
+color: rgb(33, 93, 146);
+width: 213vh;
+height: 9vh;
+text-align: center;
+display: flex;
+justify-items: center;
+justify-content: center;
+
+font-size: 6vh;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+a{
+    position: relative;
+    top: -7vh;left: 2vh;
+font-size: 4.5vh;
+color: rgb(245, 238, 238);
+}
+
+
+#bar:hover{
+   
+    
+ul{
+    display: inline-block;
+    color: #E2E2B6;
+     width: 50vh;
+     
+     text-indent: 4vh;
+     top: -15vh;
+     position: relative;
+     left: -2vh;
+        font-size: 4vh;
+        justify-content: center;
+        justify-items: center;
+    }
+    li{
+        margin-top: 2vh;
+    }
+    
+}
+
+.ac{
+    position: relative;
+    top: -12vh;
+    left: 200vh;
+font-size: 4.5vh;
+color: white;
+
+}
+#arr{
+    position: relative;
+    top: -5vh;
+    left: 4.5vh;
+    font-size: 4vh;
+}
+
+/* 
+img section */
+
+
+
+img{
+    width: 30vh;
+    height: 30vh;
+    display:inline-block;
+    justify-content: center;
+    justify-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 130vh;
+    margin-top: -20vh;
+    
+}
+
+
+.rock{
+display:flex;
+    position:relative;
+    justify-content:center;
+    top:40vh;
+
+}
+
+.paper{
+display:flex;
+    position:relative;
+    justify-content:center;
+    top:29vh; left:35vh;
+
+
+}
+
+
+.ses{
+display:flex;
+    position:relative;
+    justify-content:center;
+    top:20vh; left:70vh;
+
+    
+}
+
+
+/* 
+text section */
+
+.wonn{
+
+    background-color: #6EACDA;
+    color: rgb(22, 22, 21);
+    width: 60vh;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+
+    font-size: 6vh;
+    position: relative;
+    top: 30vh; left: 75vh;
+}
+
+/* count section */
+
+.user{
+
+    background-color: #E2E2B6;
+    width: 20vh;
+    color: rgb(11, 12, 12);
+    font-size: 7vh;
+    position: relative;
+    top: 45vh;left:60vh;
+    text-align: center;
+}
+
+
+.com{
+
+    background-color:#E2E2B6;
+    color: rgb(12, 12, 12);
+    font-size: 7vh;
+    width: 30vh;
+    text-align: center;
+        position: relative;
+    top: 29vh;left:120vh;
+}
+
+.one{
+    font-size:7vh;
+     position: relative;
+    top: 45vh;left:68vh;
+    
+}
+.two{
+ font-size:7vh;
+     position: relative;
+    top: 29vh;left:133vh;
+}
